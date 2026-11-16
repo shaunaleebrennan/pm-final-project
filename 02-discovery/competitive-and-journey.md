@@ -1,16 +1,11 @@
-# Competitive Analysis & Journey Map
-
-> **Module 2 · Lab 2 — ★ Deliverable 2.** Repo file `02-discovery/competitive-and-journey.md` — part of your submission.
-> Do the lab in the **Module 2 · Exercise 2 Guide** (linked from the Module 2 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It becomes the **Competitive Analysis & Journey Map** slide of your Module 6 final deck. Builds on your `ai-synthesis.md` and your Module 1 `problem-hook.md`.
+# Competitive Analysis & Journey Map (Module 2)
 
 ## Responses
-
-- **Role, who are you solving for?:** _(not filled in)_
-- **Goal, what is this user ultimately trying to achieve?:** _(not filled in)_
-- **Friction, the main barrier (moment of misery) stopping them:** _(not filled in)_
-- **External tools the user is forced to use:** _(not filled in)_
-- **The process, the 3–5 manual steps they take:** _(not filled in)_
-- **Core frustration, where the process feels most "broken":** _(not filled in)_
-- **The evidence, a quote or behavior from the research:** _(not filled in)_
-- **Journey map, a shareable link or the map file you committed:** _(not filled in)_
+- **Role, who are you solving for? (the specific user segment or profile):** A sales engineer at a mid-market SaaS company who completes buyer security questionnaires against tight deal deadlines.
+- **Goal, what is this user ultimately trying to achieve?:** Submit accurate questionnaire answers fast enough to keep the deal on schedule.
+- **Friction, the main barrier (moment of misery) stopping them from succeeding:** The AI tool fills gaps quickly, but they can't tell which answers came from a document that's a year old, so every AI-completed answer has to be trusted on faith (H-02).
+- **External tools, the outside platforms or tools the user is forced to use:** An AI drafting tool, the security team's Slack channel, files of previous questionnaires, and the answer library's last-modified dates. The sample research doesn't name specific products.
+- **The process, the 3 to 5 manual steps the user takes to get the job done:** 1) Copy answers from the closest previous questionnaire (H-01). 2) Run the AI tool to fill the gaps and accept its answers on trust, with only last-modified dates as a freshness signal (H-02, H-04). 3) Post uncertain questions in security's Slack channel and wait three to four days (T-02). 4) At the deadline, mark unresolved answers "to confirm" and submit (H-05). 5) Never go back to them, so the wording carries into the next questionnaire (H-05, H-09).
+- **Core frustration, the exact moment the process feels most “broken”:** The check is slower than the deal. A three-to-four-day Slack wait against a Friday deadline forces a choice between accuracy and submission, and the workaround chooses submission.
+- **The evidence, a specific quote or behavior from the research that proves this:** Hypothetical note H-05, to validate in interviews: "Security took four days to get back to me. The questionnaire was due Friday, so I sent what I had and marked two answers 'to confirm'. I never went back to them." The cost shows in T-01: a wrong certification scope was found in a customer audit, after the contract was signed.
+- **Your journey map, a shareable link, or the map file you committed (e.g. journey-map.html):** [02-discovery/journey-map.md](https://github.com/shaunaleebrennan/pm-final-project/blob/main/02-discovery/journey-map.md)
