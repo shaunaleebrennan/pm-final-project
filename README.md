@@ -14,8 +14,8 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 
 | Module | Deliverable | Status | File |
 |---|---|---|---|
-| 1 · Tell an Outcome Apart from an Output | Strategic Discovery Map | ✅ Done | [`01-product-thinking/strategic-map.md`](01-product-thinking/strategic-map.md) · [guide export](01-product-thinking/exercise-1-guide-export.md) · [raw AI outputs](01-product-thinking/exercise-1-raw-outputs.md) |
-| 1 · Tell an Outcome Apart from an Output | ★ Problem Hook & Value Proposition | ✅ Done | [`01-product-thinking/problem-hook.md`](01-product-thinking/problem-hook.md) · [guide export](01-product-thinking/exercise-2-guide-export.md) · [builder export](01-product-thinking/problem-hook-builder-export.md) · [Slide 1 preview](01-product-thinking/problem-hook-slide-1.png) |
+| 1 · Tell an Outcome Apart from an Output | Strategic Discovery Map | ✅ Done | [`01-product-thinking/strategic-map.md`](01-product-thinking/strategic-map.md) |
+| 1 · Tell an Outcome Apart from an Output | ★ Problem Hook & Value Proposition | ✅ Done | [`01-product-thinking/problem-hook.md`](01-product-thinking/problem-hook.md) · [builder export](01-product-thinking/problem-hook-builder-export.md) · [Slide 1 preview](01-product-thinking/problem-hook-slide-1.png) |
 | 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ⏳ Not started | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) |
 | 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ⏳ Not started | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) |
 | 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ⏳ Not started | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) |
@@ -34,11 +34,8 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 pm-final-project/
 ├── README.md                              ← this page
 ├── 01-product-thinking/
-│   ├── strategic-map.md                   ← M1: strategic discovery map
-│   ├── exercise-1-guide-export.md         ← M1: Exercise 1 guide download
-│   ├── exercise-1-raw-outputs.md          ← M1: raw V1, V2 and V3 maps
-│   ├── problem-hook.md                    ← M1: problem hook + value prop
-│   ├── exercise-2-guide-export.md         ← M1: Exercise 2 guide download
+│   ├── strategic-map.md                   ← M1: Exercise 1 guide download
+│   ├── problem-hook.md                    ← M1: Exercise 2 guide download
 │   ├── problem-hook-builder-export.md     ← M1: Problem Hook Builder download
 │   └── problem-hook-slide-1.png           ← M1: Slide 1 preview
 ├── 02-discovery/
