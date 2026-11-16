@@ -41,4 +41,8 @@ Short version: *Our security questionnaire answers are copied from the past and 
 
 ## Link to full artifact
 
-_[link to your Problem Hook Builder export]_
+- [Exercise 2 guide export](exercise-2-guide-export.md) (the `.md` the Module 1 · Exercise 2 Guide downloads)
+- [Problem Hook Builder export](problem-hook-builder-export.md) (the `.md` the builder downloads)
+- Slide 1 preview from the builder:
+
+![Slide 1 preview: scenario, problem hook and value proposition](problem-hook-slide-1.png)
