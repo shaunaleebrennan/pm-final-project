@@ -1,14 +1,13 @@
-# PRD & Prototype Sprint
+# PRD & Prototype Sprint (Module 4)
 
-> **Module 4 · Lab 2.** Repo file `04-roadmap/prd-and-prototype.md` — part of your submission.
-> Do the lab in the **Module 4 · Exercise 2 Guide** (linked from the Module 4 deck), then click **⬇ Download .md** — it saves as this exact file. Commit it here.
-> It deepens the top feature from your `roadmap-prd-prototype.md` and feeds the **Roadmap, PRD & Prototype** slide of your Module 6 deck.
+## Pick & scope with MoSCoW
+- **The “Now” feature I’m scoping (name + one-line core description):** Pre-Submission Answer Check: before a questionnaire is sent, check every answer against current certifications, regions and policies, flag the outdated ones and send only those to security.
+- **My finalized Must-Haves (after overriding the AI):** Load a drafted questionnaire; a current posture register (certifications with scope, regions with status, policies with values, each with a change date); flag any answer that contradicts it; show each flag with the conflicting control, current value and change date; fix or send to security; block "Ready to submit" until every flag is resolved.
+- **What I demoted from Must → Should/Won’t, and why:** The AI made "AI-suggested replacement wording" a Must. I demoted it to Could: the SE can fix the answer once they see the current value, and an AI rewrite brings back the unsourced-answer problem (H-02). It also made "save security decisions to the library" a Must. I moved it to Won't (now) because it's S6 in my Next lane, and the pilot only needs to prove the check and the queue.
 
-## Responses
+## Generate your Simplified PRD
+- **One thing my PRD makes explicit that a vague brief would have missed:** What happens to an answer the check can't verify. A vague brief would say "flag outdated answers". My PRD says an answer that mentions a control missing from the register is marked "Unknown, send to security" and is never cleared, and "Ready to submit" stays locked until every flag is resolved. That's the rule that stops a "to confirm" answer slipping out.
 
-- **The "Now" feature I'm scoping (name + one-line core description):** _(not filled in)_
-- **My finalized Must-Haves (after overriding the AI):** _(not filled in)_
-- **What I demoted from Must → Should/Won't, and why:** _(not filled in)_
-- **One thing my PRD makes explicit that a vague brief would have missed:** _(not filled in)_
-- **Where the prototype revealed a gap in my PRD logic (what I updated):** _(not filled in)_
-- **My shareable prototype URL:** _(not filled in)_
+## Prompt-to-prototype sprint
+- **Where did the prototype reveal a gap in my PRD logic? (what I had to update):** Three gaps. 1) My PRD locked "Ready to submit" until every flag was resolved, but never said what happens to unflagged answers. The build made the SE clear them too, so I added that rule. 2) "Mark answers that mention a control not in the register" can't work with keyword matching: the tool can't spot a control it has never heard of. Lovable had to hard-code a list of terms (FedRAMP, HIPAA, PCI DSS), so I added a watched-terms list to the register. 3) I only planned for security confirming an answer. The prototype needed a path for security asking for an edit, so I added that edge case. It also showed "time saved" as a fixed 3.5-day estimate, which reminded me the guardrail needs real turnaround data, not a number on a screen.
+- **My prototype, as a link or a screenshot (publish or share from your tool; in Lovable that is Share → Share Preview, in Bolt Publish → Web. No share URL? Screenshot the working flow):** https://answer-check-prototype.lovable.app (built in Lovable from my Simplified PRD; click "Load sample questionnaire", then "Run check")
