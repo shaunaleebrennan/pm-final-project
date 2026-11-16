@@ -41,7 +41,8 @@ pm-final-project/
 ├── 02-discovery/
 │   ├── ai-synthesis.md                    ← M2: Exercise 1 guide download
 │   ├── sample-data-hypothetical.md        ← M2: assumed dataset Exercise 1 ran on
-│   └── competitive-and-journey.md         ← M2: workaround + journey map
+│   ├── competitive-and-journey.md         ← M2: workaround + journey map
+│   └── journey-map.md                     ← M2: future-state journey map (Claude output)
 ├── 03-analytics/
 │   └── hypothesis-and-metrics.md          ← M3: hypothesis + success metrics
 ├── 04-roadmap/
