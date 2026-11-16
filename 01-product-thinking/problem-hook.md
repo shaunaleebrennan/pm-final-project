@@ -25,7 +25,7 @@ Short version: *Our security questionnaire answers are copied from the past and 
 
 ## 5. Value proposition
 
-> For **sales engineers and proposal teams answering enterprise security questionnaires, and the security and GRC teams who review them**, we will **check every drafted answer against current certifications, data residency and policies before submission, flag what is outdated or overstated, and send only those answers to security for review** because **enterprise buyers are asking for more security evidence in every deal, AI has made answers fast but not correct, and every inaccurate answer that gets signed is a contractual risk**.
+> For **sales engineers and proposal teams answering enterprise security questionnaires, and the security and GRC teams who review them**, we will **check every drafted answer against current certifications, data residency and policies before submission, flag any answer that a certification, region or policy change has made outdated or overstated, and send only those answers to security for review** because **enterprise buyers are asking for more security evidence in every deal, AI has made answers fast but not correct, and every inaccurate answer that gets signed is a contractual risk**.
 
 ## 6. Cold-read self-review
 
@@ -33,7 +33,7 @@ Short version: *Our security questionnaire answers are copied from the past and 
 |---|---|
 | Is the business risk high-stakes enough to justify a new initiative? | Yes. Answers become contract terms, delays hit late-stage revenue, and a wrong answer is legal and reputational exposure. |
 | Is the moment of misery systemic, or just an edge case? | Systemic. Nearly every enterprise deal includes a questionnaire, and the posture changes whenever a certification, region or policy changes. |
-| Does the value proposition actually remove the obstacle? | It targets the specific gap: answer libraries store past answers, but nobody checks whether an answer is still true today before it's submitted. Module 2 needs to prove that difference against answer-library and trust-centre tools. |
+| Does the value proposition actually remove the obstacle? | It targets the gap AI answer tools leave. They draft answers from whatever documents have been uploaded, and their freshness depends on someone uploading current ones. Nothing flags when a certification, region or policy change has made an answer the team already relies on untrue. This check is triggered by the change, not by the next upload. Module 2 needs to prove that against AI answer tools (Conveyor, Loopio, Responsive) and trust centres. |
 
 ## 7. Finalized hypothesis _(complete in Module 3)_
 
