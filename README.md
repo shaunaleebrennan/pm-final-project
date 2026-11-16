@@ -18,7 +18,7 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 | 1 · Tell an Outcome Apart from an Output | ★ Problem Hook & Value Proposition | ✅ Done | [`01-product-thinking/problem-hook.md`](01-product-thinking/problem-hook.md) · [builder export](01-product-thinking/problem-hook-builder-export.md) · [Slide 1 preview](01-product-thinking/problem-hook-slide-1.png) |
 | 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ✅ Done | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) · [hypothetical sample data](02-discovery/sample-data-hypothetical.md) |
 | 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ✅ Done | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) · [journey map](02-discovery/journey-map.md) · [builder export](02-discovery/persona-journey-builder-export.md) |
-| 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ⏳ Not started | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) |
+| 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ✅ Done | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) · [builder export](03-analytics/hypothesis-builder-export.md) · [hypothetical metrics snapshot](03-analytics/metrics-snapshot-hypothetical.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ⏳ Not started | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ⏳ Not started | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) |
 | 5 · Call the Test: Ship, Iterate, or Kill | ★ Experimentation Plan | ⏳ Not started | [`05-experimentation/experimentation-plan.md`](05-experimentation/experimentation-plan.md) |
@@ -45,7 +45,9 @@ pm-final-project/
 │   ├── journey-map.md                     ← M2: future-state journey map (Claude output)
 │   └── persona-journey-builder-export.md  ← M2: Persona & Journey Builder download
 ├── 03-analytics/
-│   └── hypothesis-and-metrics.md          ← M3: hypothesis + success metrics
+│   ├── hypothesis-and-metrics.md          ← M3: Exercise Guide download
+│   ├── hypothesis-builder-export.md       ← M3: Hypothesis Builder download
+│   └── metrics-snapshot-hypothetical.md   ← M3: assumed data the snapshots ran on
 ├── 04-roadmap/
 │   ├── roadmap-prd-prototype.md           ← M4: roadmap + prioritization
 │   └── prd-and-prototype.md               ← M4: PRD + prototype
