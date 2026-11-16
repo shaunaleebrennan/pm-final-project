@@ -16,7 +16,7 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 |---|---|---|---|
 | 1 · Tell an Outcome Apart from an Output | Strategic Discovery Map | ✅ Done | [`01-product-thinking/strategic-map.md`](01-product-thinking/strategic-map.md) |
 | 1 · Tell an Outcome Apart from an Output | ★ Problem Hook & Value Proposition | ✅ Done | [`01-product-thinking/problem-hook.md`](01-product-thinking/problem-hook.md) · [builder export](01-product-thinking/problem-hook-builder-export.md) · [Slide 1 preview](01-product-thinking/problem-hook-slide-1.png) |
-| 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ⏳ Not started | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) |
+| 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ✅ Done | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) · [hypothetical sample data](02-discovery/sample-data-hypothetical.md) |
 | 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ⏳ Not started | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) |
 | 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ⏳ Not started | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ⏳ Not started | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) |
@@ -39,7 +39,8 @@ pm-final-project/
 │   ├── problem-hook-builder-export.md     ← M1: Problem Hook Builder download
 │   └── problem-hook-slide-1.png           ← M1: Slide 1 preview
 ├── 02-discovery/
-│   ├── ai-synthesis.md                    ← M2: product health & insights summary
+│   ├── ai-synthesis.md                    ← M2: Exercise 1 guide download
+│   ├── sample-data-hypothetical.md        ← M2: assumed dataset Exercise 1 ran on
 │   └── competitive-and-journey.md         ← M2: workaround + journey map
 ├── 03-analytics/
 │   └── hypothesis-and-metrics.md          ← M3: hypothesis + success metrics
