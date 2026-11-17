@@ -19,8 +19,8 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 | 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ✅ Done | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) · [hypothetical sample data](02-discovery/sample-data-hypothetical.md) |
 | 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ✅ Done | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) · [journey map](02-discovery/journey-map.md) · [builder export](02-discovery/persona-journey-builder-export.md) |
 | 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ✅ Done | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) · [builder export](03-analytics/hypothesis-builder-export.md) · [hypothetical metrics snapshot](03-analytics/metrics-snapshot-hypothetical.md) |
-| 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ⏳ Not started | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) |
-| 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ⏳ Not started | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) |
+| 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ✅ Done | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) · [builder export](04-roadmap/roadmap-builder-export.md) · [roadmap screenshot](04-roadmap/roadmap-screenshot.png) · [interactive roadmap](04-roadmap/interactive-roadmap.html) · [hypothetical backlog](04-roadmap/backlog-hypothetical.md) |
+| 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ✅ Done | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) · [Simplified PRD](04-roadmap/prd-builder-export.md) · [prototype prompt](04-roadmap/prototype-prompt.md) · [live prototype](https://answer-check-prototype.lovable.app) |
 | 5 · Call the Test: Ship, Iterate, or Kill | ★ Experimentation Plan | ⏳ Not started | [`05-experimentation/experimentation-plan.md`](05-experimentation/experimentation-plan.md) |
 | 6 · Write the Launch Plan and How You Will Know | ★ GTM Strategy & Success Dashboard | ⏳ Not started | [`06-launch/gtm-and-dashboard.md`](06-launch/gtm-and-dashboard.md) |
 | 6 · Write the Launch Plan and How You Will Know | Individual Insights | ⏳ Not started | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
@@ -50,8 +50,14 @@ pm-final-project/
 │   ├── hypothesis-builder-export.md       ← M3: Hypothesis Builder download
 │   └── metrics-snapshot-hypothetical.md   ← M3: assumed data the snapshots ran on
 ├── 04-roadmap/
-│   ├── roadmap-prd-prototype.md           ← M4: roadmap + prioritization
-│   └── prd-and-prototype.md               ← M4: PRD + prototype
+│   ├── roadmap-prd-prototype.md           ← M4: Lab 1 guide download
+│   ├── roadmap-builder-export.md          ← M4: Roadmap Builder download
+│   ├── backlog-hypothetical.md            ← M4: assumed backlog + AI vs. my scores
+│   ├── interactive-roadmap.html           ← M4: clickable Now/Next/Later roadmap
+│   ├── roadmap-screenshot.png             ← M4: roadmap screenshot
+│   ├── prd-and-prototype.md               ← M4: Lab 2 guide download
+│   ├── prd-builder-export.md              ← M4: PRD Builder download (Simplified PRD)
+│   └── prototype-prompt.md                ← M4: prompt pasted into Lovable
 ├── 05-experimentation/
 │   └── experimentation-plan.md            ← M5: experimentation plan
 └── 06-launch/

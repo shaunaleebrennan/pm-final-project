@@ -1,0 +1,87 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Answer Check Roadmap</title>
+<style>
+  :root { --bg:#f6f7f9; --card:#fff; --ink:#1c2230; --muted:#5d6676; --line:#dfe3ea;
+          --qw:#1f8a5b; --mp:#2f6fd6; --fi:#b7791f; --ts:#c2413b; }
+  * { box-sizing:border-box; }
+  body { margin:0; font:15px/1.45 system-ui,-apple-system,Segoe UI,Roboto,sans-serif; background:var(--bg); color:var(--ink); }
+  header { padding:28px 24px 8px; max-width:1180px; margin:0 auto; }
+  h1 { margin:0; font-size:24px; }
+  .meta { color:var(--muted); margin-top:4px; }
+  .filters { margin-top:14px; display:flex; flex-wrap:wrap; gap:8px; }
+  .filters button { border:1px solid var(--line); background:var(--card); border-radius:999px; padding:6px 12px; cursor:pointer; font:inherit; font-size:13px; }
+  .filters button.on { background:var(--ink); color:#fff; border-color:var(--ink); }
+  main { max-width:1180px; margin:0 auto; padding:16px 24px 32px; }
+  .lanes { display:grid; grid-template-columns:repeat(3,1fr); gap:16px; }
+  .lane { background:#eceff4; border-radius:12px; padding:12px; }
+  .lane h2 { margin:2px 4px 2px; font-size:15px; letter-spacing:.04em; }
+  .lane .when { margin:0 4px 10px; color:var(--muted); font-size:13px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:10px; padding:12px; margin-bottom:10px; cursor:pointer; transition:box-shadow .15s; }
+  .card:hover { box-shadow:0 2px 10px rgba(0,0,0,.08); }
+  .card b { display:block; margin-bottom:6px; }
+  .badge { display:inline-block; font-size:12px; font-weight:600; color:#fff; border-radius:999px; padding:2px 9px; }
+  .qw{background:var(--qw)} .mp{background:var(--mp)} .fi{background:var(--fi)} .ts{background:var(--ts)}
+  .scores { color:var(--muted); font-size:12px; margin-left:6px; }
+  .why { display:none; margin-top:8px; color:var(--muted); font-size:14px; }
+  .card.open .why { display:block; }
+  .cut { margin-top:22px; background:var(--card); border:1px dashed var(--ts); border-radius:12px; padding:14px 16px; }
+  .cut h2 { margin:0 0 8px; font-size:15px; color:var(--ts); }
+  .cut li { margin:6px 0; }
+  .note { color:var(--muted); font-size:12px; margin-top:18px; }
+  .hide { display:none; }
+  @media (max-width:820px) { .lanes { grid-template-columns:1fr; } }
+</style>
+</head>
+<body>
+<header>
+  <h1>Security Questionnaire Answer Check · Roadmap</h1>
+  <div class="meta">Team: 2 engineers + 1 designer · Goal: % of questionnaires sent with no "to confirm" answers, 58% → 85% · Guardrail: turnaround ≤ 5.2 days</div>
+  <div class="filters" id="filters">
+    <button class="on" data-q="all">All</button>
+    <button data-q="qw">Quick Win</button>
+    <button data-q="mp">Major Project</button>
+    <button data-q="fi">Fill-In</button>
+    <button data-q="ts">Time Sinker</button>
+  </div>
+</header>
+<main>
+  <div class="lanes" id="lanes"></div>
+  <div class="cut"><h2>✂ Cut List</h2><ul id="cut"></ul></div>
+  <p class="note">Click a card to see the rationale. Backlog and scores are hypothetical (Module 4 sample backlog).</p>
+</main>
+<script>
+const Q = { qw:'Quick Win', mp:'Major Project', fi:'Fill-In', ts:'Time Sinker' };
+const F = [
+  ['now','S2','Pre-Submission Answer Check',5,2,'qw','Directly moves my metric: catches outdated answers before they go out marked "to confirm" (42% today).'],
+  ['now','S1','Change-Impact Flags',5,2,'qw','The trigger for every flag. Pilot covers only certifications, regions and policies (14% of answers), so effort is small.'],
+  ['now','S3','Flagged-Only Security Queue',4,2,'qw','Security review is the biggest gap (3.5 days vs. a 1-day target). Sending only flagged answers protects turnaround.'],
+  ['next','S6','Save Security Decisions to Library',4,3,'mp','Stops security answering the same questions on 5 deals (T-05), but needs the check and queue live first.'],
+  ['next','S5','Answer Owner Assignment',3,1,'fi','Only 6% of entries have an owner. Needed to route flags at scale after the pilot, not to prove the check works.'],
+  ['later','S4','Source & Date on AI Drafts',3,2,'fi','A source and date don\'t say whether the answer is still true. Drafting isn\'t the leak (92% drafted in 2 days).'],
+  ['later','S10','Trust Centre Sync',3,3,'ts','Same change event could update the trust centre (T-08), but it\'s public pages, not questionnaires. After the pilot.'],
+  ['cut','S7','AI Auto-Complete Whole Questionnaire',2,5,'ts','More AI drafting adds more unsourced answers (H-02). Drafting already works; verifying is the problem.'],
+  ['cut','S8','Buyer Portal Auto-Submit',2,5,'ts','A different integration per buyer portal, and it makes sending faster without making answers truer.'],
+  ['cut','S9','Questionnaire Format Preserver',2,3,'ts','Low-severity annoyance (T-07) that doesn\'t touch answer accuracy or my metric.']
+];
+const LANES = [['now','NOW','Pilot · 4 weeks, 3 sales teams'],['next','NEXT','Weeks 5 to 8'],['later','LATER','Backlog']];
+const esc = s => s.replace(/[&<>]/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;'}[c]));
+document.getElementById('lanes').innerHTML = LANES.map(([k,t,w]) =>
+  `<section class="lane"><h2>${t}</h2><div class="when">${w}</div>` +
+  F.filter(f => f[0]===k).map(f => `<div class="card" data-q="${f[5]}"><b>${f[1]} · ${esc(f[2])}</b>` +
+    `<span class="badge ${f[5]}">${Q[f[5]]}</span><span class="scores">Value ${f[3]} · Effort ${f[4]}</span>` +
+    `<div class="why">${esc(f[6])}</div></div>`).join('') + `</section>`).join('');
+document.getElementById('cut').innerHTML = F.filter(f => f[0]==='cut').map(f =>
+  `<li data-q="${f[5]}"><b>${f[1]} · ${esc(f[2])}</b> <span class="badge ${f[5]}">${Q[f[5]]}</span> ${esc(f[6])}</li>`).join('');
+document.querySelectorAll('.card').forEach(c => c.addEventListener('click', () => c.classList.toggle('open')));
+document.getElementById('filters').addEventListener('click', e => {
+  const q = e.target.dataset.q; if (!q) return;
+  document.querySelectorAll('#filters button').forEach(b => b.classList.toggle('on', b === e.target));
+  document.querySelectorAll('[data-q]').forEach(el => { if (el.tagName !== 'BUTTON') el.classList.toggle('hide', q !== 'all' && el.dataset.q !== q); });
+});
+</script>
+</body>
+</html>
