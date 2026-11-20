@@ -22,9 +22,9 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 | 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ✅ Done | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) · [builder export](04-roadmap/roadmap-builder-export.md) · [roadmap screenshot](04-roadmap/roadmap-screenshot.png) · [interactive roadmap](04-roadmap/interactive-roadmap.html) · [hypothetical backlog](04-roadmap/backlog-hypothetical.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ✅ Done | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) · [Simplified PRD](04-roadmap/prd-builder-export.md) · [prototype prompt](04-roadmap/prototype-prompt.md) · [live prototype](https://answer-check-prototype.lovable.app) |
 | 5 · Call the Test: Ship, Iterate, or Kill | ★ Experimentation Plan | ✅ Done | [`05-experimentation/experimentation-plan.md`](05-experimentation/experimentation-plan.md) · [builder export](05-experimentation/experiment-brief-builder-export.md) · [pressure test](05-experimentation/pressure-test.md) |
-| 6 · Write the Launch Plan and How You Will Know | ★ GTM Strategy & Success Dashboard | ⏳ Not started | [`06-launch/gtm-and-dashboard.md`](06-launch/gtm-and-dashboard.md) |
-| 6 · Write the Launch Plan and How You Will Know | Individual Insights | ⏳ Not started | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
-| ★ | Final Project Presentation | ⏳ Not started | Built in the Module 6 Final Project Deliverables Builder |
+| 6 · Write the Launch Plan and How You Will Know | ★ GTM Strategy & Success Dashboard | ✅ Done | [`06-launch/gtm-and-dashboard.md`](06-launch/gtm-and-dashboard.md) · [builder export](06-launch/gtm-builder-export.md) · [pressure test](06-launch/pressure-test.md) |
+| 6 · Write the Launch Plan and How You Will Know | Individual Insights | 📝 Draft | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
+| ★ | Final Project Presentation | ✅ Done | [`06-launch/final-presentation.html`](06-launch/final-presentation.html) (builder download) · [redesigned version](06-launch/final-presentation-redesigned.html) · [CPO review](06-launch/cpo-review.md) |
 
 ★ = feeds a slide in the final presentation.
 
@@ -63,8 +63,13 @@ pm-final-project/
 │   ├── experiment-brief-builder-export.md ← M5: Experiment Brief Builder download
 │   └── pressure-test.md                   ← M5: pressure test of my first draft
 └── 06-launch/
-    ├── gtm-and-dashboard.md               ← M6: GTM plan + success dashboard
-    └── individual-insights.md             ← M6: individual insights
+    ├── gtm-and-dashboard.md               ← M6: Lab Guide download + success dashboard
+    ├── gtm-builder-export.md              ← M6: GTM Launch Plan Builder download
+    ├── pressure-test.md                   ← M6: pressure test of my first draft
+    ├── individual-insights.md             ← M6: individual insights
+    ├── final-presentation.html            ← M6: Final Project Deliverables Builder download
+    ├── final-presentation-redesigned.html ← M6: redesigned slide version
+    └── cpo-review.md                      ← M6: CPO critic's read of the presentation
 ```
 
 ## Submission
