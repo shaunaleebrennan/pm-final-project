@@ -59,8 +59,8 @@ Each row is one certification, region or policy change. Cells show the % of affe
 
 | Segment | % of questionnaires | Security questions per questionnaire | Submitted with "to confirm" | Post-submission corrections (90 days) |
 |---|---|---|---|---|
-| Mid-market SE, no proposal team | 55% | 14 | 52% | 2 |
-| Enterprise SE with a proposal manager | 30% | 9 | 27% | 1 |
+| Mid-market SE, no proposal team | 55% | 13 | 52% | 2 |
+| Enterprise SE with a proposal manager | 30% | 9 | 15% | 1 |
 | New-hire SE (under 6 months) | 15% | 16 | 60% | 0 |
 
 **By answer category**
