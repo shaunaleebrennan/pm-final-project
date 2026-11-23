@@ -16,7 +16,7 @@ Working on my own B2B problem meant there was no course dataset. Every builder w
 
 _A few surprising discoveries or insights you gained from the course overall._
 
-1. AI tools over-value AI features. In Module 4 the AI scored "auto-complete the whole questionnaire" as a top item because it sounds fast. My own interview notes and data said drafting wasn't the pain, so I overrode it. I can only critique the output because I know the domain.
+1. AI tools over-value AI features. In Module 4 the AI scored "auto-complete the whole questionnaire" as a top item because it sounds fast. My hypothetical research notes and data said drafting wasn't the pain, so I overrode it. I can only critique the output because I know the domain.
 2. A prototype is a test of the PRD. Building it showed rules I hadn't written: what happens to unflagged answers, how to catch a control the register has never heard of, and what happens when security asks for an edit.
 3. B2B experiments are short on sample. Decide the smallest result worth shipping, fix the read date before the test starts, and don't look early.
 4. The goal decides the audience. By launch, the sales engineers already knew the check from the pilot. What wasn't proven was whether anyone would pay, so the launch had to be about conversion, not awareness.
