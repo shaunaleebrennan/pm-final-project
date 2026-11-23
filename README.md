@@ -23,7 +23,7 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 | 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ✅ Done | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) · [Simplified PRD](04-roadmap/prd-builder-export.md) · [prototype prompt](04-roadmap/prototype-prompt.md) · [live prototype](https://answer-check-prototype.lovable.app) |
 | 5 · Call the Test: Ship, Iterate, or Kill | ★ Experimentation Plan | ✅ Done | [`05-experimentation/experimentation-plan.md`](05-experimentation/experimentation-plan.md) · [builder export](05-experimentation/experiment-brief-builder-export.md) · [pressure test](05-experimentation/pressure-test.md) |
 | 6 · Write the Launch Plan and How You Will Know | ★ GTM Strategy & Success Dashboard | ✅ Done | [`06-launch/gtm-and-dashboard.md`](06-launch/gtm-and-dashboard.md) · [builder export](06-launch/gtm-builder-export.md) · [pressure test](06-launch/pressure-test.md) |
-| 6 · Write the Launch Plan and How You Will Know | Individual Insights | 📝 Draft | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
+| 6 · Write the Launch Plan and How You Will Know | Individual Insights | ✅ Done | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
 | ★ | Final Project Presentation | ✅ Done | [`06-launch/final-presentation.html`](06-launch/final-presentation.html) (builder download) · [redesigned version](06-launch/final-presentation-redesigned.html) · [CPO review](06-launch/cpo-review.md) |
 
 ★ = feeds a slide in the final presentation.
