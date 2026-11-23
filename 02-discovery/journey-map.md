@@ -61,4 +61,12 @@ Plain-text version: `Change lands → [1 Prepare] → [2 Draft] → [3 Verify] �
 2. Sends security only flagged answers, cutting repeat questions across concurrent deals (T-05).
 3. Gives every answer an owner, source and date, replacing trust on faith with a check (H-02, T-03).
 
+## Named alternatives
+
+Loopio and Responsive (answer libraries with AI drafting for RFPs and questionnaires), Conveyor (AI answers for security questionnaires) and public trust centres. All of them make answering faster from a library, and some say they keep that library fresh through review cycles or re-uploaded documents. From what I've seen, none ties each answer to the certification, region or policy it depends on and flags it when that changes. I still need to confirm this in product demos.
+
+## Why wouldn't Loopio ship this as a checkbox?
+
+It could. The check itself is simple. The hard part is the posture register: a current, owned record of certification scope, regions and policies. That record sits with security, not with the proposal teams those tools sell to. My two-week backwards check (Phase 0 in Module 6) tests whether the register can be built at all. If an incumbent ships it first, the check becomes something to buy, not build.
+
 > Note: the research behind this map is assumed sample data. Validate each stage with real users before treating it as a target state.

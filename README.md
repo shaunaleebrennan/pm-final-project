@@ -17,14 +17,14 @@ Security questionnaires sit in almost every enterprise SaaS deal. Sales engineer
 | 1 · Tell an Outcome Apart from an Output | Strategic Discovery Map | ✅ Done | [`01-product-thinking/strategic-map.md`](01-product-thinking/strategic-map.md) · [raw AI outputs](01-product-thinking/exercise-1-raw-outputs.md) |
 | 1 · Tell an Outcome Apart from an Output | ★ Problem Hook & Value Proposition | ✅ Done | [`01-product-thinking/problem-hook.md`](01-product-thinking/problem-hook.md) · [builder export](01-product-thinking/problem-hook-builder-export.md) · [Slide 1 preview](01-product-thinking/problem-hook-slide-1.png) |
 | 2 · Find the Problem Behind the Workaround | AI Synthesis: Product Health & Insights | ✅ Done | [`02-discovery/ai-synthesis.md`](02-discovery/ai-synthesis.md) · [hypothetical sample data](02-discovery/sample-data-hypothetical.md) |
-| 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ✅ Done | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) · [journey map](02-discovery/journey-map.md) · [builder export](02-discovery/persona-journey-builder-export.md) |
+| 2 · Find the Problem Behind the Workaround | ★ Competitive Analysis & Journey Map | ✅ Done | [`02-discovery/competitive-and-journey.md`](02-discovery/competitive-and-journey.md) · [journey map + named alternatives](02-discovery/journey-map.md) · [builder export](02-discovery/persona-journey-builder-export.md) |
 | 3 · Turn a Metric Into a Testable Hypothesis | ★ Hypothesis & Success Metrics | ✅ Done | [`03-analytics/hypothesis-and-metrics.md`](03-analytics/hypothesis-and-metrics.md) · [builder export](03-analytics/hypothesis-builder-export.md) · [hypothetical metrics snapshot](03-analytics/metrics-snapshot-hypothetical.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | ★ Roadmap & Prioritization | ✅ Done | [`04-roadmap/roadmap-prd-prototype.md`](04-roadmap/roadmap-prd-prototype.md) · [builder export](04-roadmap/roadmap-builder-export.md) · [roadmap screenshot](04-roadmap/roadmap-screenshot.png) · [interactive roadmap](04-roadmap/interactive-roadmap.html) · [hypothetical backlog](04-roadmap/backlog-hypothetical.md) |
 | 4 · Sequence the Roadmap: Now, Next, Later | PRD & Prototype Sprint | ✅ Done | [`04-roadmap/prd-and-prototype.md`](04-roadmap/prd-and-prototype.md) · [Simplified PRD](04-roadmap/prd-builder-export.md) · [prototype prompt](04-roadmap/prototype-prompt.md) · [live prototype](https://answer-check-prototype.lovable.app) |
 | 5 · Call the Test: Ship, Iterate, or Kill | ★ Experimentation Plan | ✅ Done | [`05-experimentation/experimentation-plan.md`](05-experimentation/experimentation-plan.md) · [builder export](05-experimentation/experiment-brief-builder-export.md) · [pressure test](05-experimentation/pressure-test.md) |
 | 6 · Write the Launch Plan and How You Will Know | ★ GTM Strategy & Success Dashboard | ✅ Done | [`06-launch/gtm-and-dashboard.md`](06-launch/gtm-and-dashboard.md) · [builder export](06-launch/gtm-builder-export.md) · [pressure test](06-launch/pressure-test.md) |
 | 6 · Write the Launch Plan and How You Will Know | Individual Insights | ✅ Done | [`06-launch/individual-insights.md`](06-launch/individual-insights.md) |
-| ★ | Final Project Presentation | ✅ Done | [`06-launch/final-presentation.html`](06-launch/final-presentation.html) (builder download) · [redesigned version](06-launch/final-presentation-redesigned.html) · [CPO review](06-launch/cpo-review.md) |
+| ★ | Final Project Presentation | ✅ Done | [`06-launch/final-presentation.html`](06-launch/final-presentation.html) (builder download) · [redesigned version](06-launch/final-presentation-redesigned.html) · [CPO critic reviews + what I changed](06-launch/cpo-review.md) |
 
 ★ = feeds a slide in the final presentation.
 
@@ -43,7 +43,7 @@ pm-final-project/
 │   ├── ai-synthesis.md                    ← M2: Exercise 1 guide download
 │   ├── sample-data-hypothetical.md        ← M2: assumed dataset Exercise 1 ran on
 │   ├── competitive-and-journey.md         ← M2: workaround + journey map
-│   ├── journey-map.md                     ← M2: future-state journey map (Claude output)
+│   ├── journey-map.md                     ← M2: future-state journey map + named alternatives
 │   └── persona-journey-builder-export.md  ← M2: Persona & Journey Builder download
 ├── 03-analytics/
 │   ├── hypothesis-and-metrics.md          ← M3: Exercise Guide download
@@ -68,9 +68,15 @@ pm-final-project/
     ├── pressure-test.md                   ← M6: pressure test of my first draft
     ├── individual-insights.md             ← M6: individual insights
     ├── final-presentation.html            ← M6: Final Project Deliverables Builder download
-    ├── final-presentation-redesigned.html ← M6: redesigned slide version
-    └── cpo-review.md                      ← M6: CPO critic's read of the presentation
+    ├── final-presentation-redesigned.html ← M6: redesigned version, one slide per section
+    └── cpo-review.md                      ← M6: two CPO critic reads and what I changed
 ```
+
+## Recommended next step
+
+Before the 12-week pilot, a two-week validation: run the check backwards on security questionnaires that 3 to 5 companies have already sent, and count how many signed answers were already outdated, by category. It replaces my hypothetical evidence with real data and tests whether a posture register can be built. See Phase 0 in the [GTM plan](06-launch/gtm-and-dashboard.md).
+
+> All research notes, metrics and targets in this project are hypothetical (labelled in each file), because there is no course dataset for my own initiative.
 
 ## Submission
 
